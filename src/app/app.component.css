@@ -244,3 +244,38 @@
 .price-input.ng-touched.ng-invalid {
   border: 1px solid red;
 }
+
+.car-toggle {
+  display: flex;
+  width: 194px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 2px;
+}
+
+.car-toggle div {
+  padding: 20px;
+  background: white;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: black;
+  transition: background-color .5s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.car-toggle div.active {
+  background: #030305;
+  color: #FFFFFF;
+}
+
+.car .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
