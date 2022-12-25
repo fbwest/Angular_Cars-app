@@ -80,7 +80,7 @@
       <input type="text" class="price-input" placeholder="Ваше имя" formControlName="name">
       <input type="text" class="price-input" placeholder="Ваш телефон" formControlName="phone">
       <input type="text" class="price-input" placeholder="Автомобиль, который вас интересует" formControlName="car">
-      <button class="button" (click)="onSubmit()" [disabled]="!priceForm.valid">Узнать цену</button>
+      <button type="submit" class="button" (click)="onSubmit()" [disabled]="!priceForm.valid">Узнать цену</button>
     </form>
     <img src="assets/images/rolls.png" alt="rolls" class="price-image" [ngStyle]="trans">
   </div>
